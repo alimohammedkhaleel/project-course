@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course project</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" 
+    href="image.png" 
+    type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap text-style">Ellol</span>
+            </a>
+            <!-- Hamburger Icon -->
+            <button id="menu-button" class="md:hidden p-2 text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+            <!-- Navbar Links -->
+            <div id="navbar-links" class="w-full md:flex md:w-auto md:items-center">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-white rounded-sm md:p-0 active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-white rounded-sm md:p-0">About</a>
+                    </li>
+                    <li class="relative group">
+                        <button class=" a-href flex items-center justify-between py-2 px-3 text-white rounded-sm md:p-0 group">
+                            Services
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <!-- Dropdown Menu -->
+                        <div class="dropdown absolute z-10 hidden w-full md:w-48 bg-[rgba(10,4,60,0.3)] backdrop-blur-md rounded-lg shadow-lg py-2">
+                            <a href="#" class="dropdown-item block px-4 py-2 text-white hover:bg-[rgba(122,90,248,0.2)] relative">
+                                Web Development
+                            </a>
+                            <a href="#" class="dropdown-item block px-4 py-2 text-white hover:bg-[rgba(122,90,248,0.2)] relative">
+                                Graphic Design
+                            </a>
+                            <a href="#" class="dropdown-item block px-4 py-2 text-white hover:bg-[rgba(122,90,248,0.2)] relative">
+                                Digital Marketing
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-white rounded-sm md:p-0">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-white rounded-sm md:p-0">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- العنوان في منتصف الصفحة -->
+    <section class="hero-section"
+        style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1 class="title">we are creative agency</h1>
+        <!-- الفقرة تحت العنوان -->
+        <p class="description">
+            "Creative Hub" is your go-to online destination for a wide range of creative products and services. We offer
+            everything from unique design templates and digital assets to custom branding packages and marketing
+            solutions.
+            Our user-friendly platform allows you to easily browse our catalog.
+        </p>
+        <div class="buttons">
+            <button class="button">
+                learn more
+            </button>
+            <button class="button">
+                Get started
+            </button>
+        </div>
+    </section>
+
+    <!-- البطاقات -->
+    <section class="cards-section">
+        <div class="cards">
+            <h2 class="HC">welcome to website</h2>
+            <div class="card">
+                <i class="fas fa-paint-brush icon"></i> <!-- أيقونة الفرشاة -->
+                <h3>fully customizible<h3>
+                        <p class="p1">perform with floral aroma burst creative Ai</p>
+                        <a href="#" class="a1">read more</a>
+            </div>
+            <div class="card">
+                <i class="fas fa-code icon"></i> <!-- أيقونة الكود -->
+                <h3>fully customizible<h3>
+                        <p class="p1">perform with floral aroma burst creative Ai</p>
+                        <a href="#" class="a1">read more</a>
+            </div>
+            <div class="card">
+                <i class="fas fa-rocket icon"></i> <!-- أيقونة الصاروخ -->
+                <h3>fully customizible<h3>
+                        <p class="p1">perform with floral aroma burst creative Ai</p>
+                        <a href="#" class="a1">read more</a>
+            </div>
+        </div>
+    </section>
+    <section class="img-section">
+        <div class="imges">
+            <div class="header">
+                <h1>feautred works</h1>
+            </div>
+            <div class="grid-container">
+                <div class="card2">
+                    <img src="https://images.pexels.com/photos/17497197/pexels-photo-17497197/free-photo-of-wet-road-in-forest-after-rain.png?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="" loading="lazy">
+                    <div class="card2-content">
+                        <h2> category</h2>
+                        <p>floral perform</p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="https://images.pexels.com/photos/31069508/pexels-photo-31069508/free-photo-of-detailed-view-of-a-half-moon-in-clear-night-sky.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="" loading="lazy">
+                    <div class="card2-content">
+                        <h2> category</h2>
+                        <p>floral perform</p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="https://images.pexels.com/photos/17795207/pexels-photo-17795207/free-photo-of-turtle-on-a-tropical-reef.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="" loading="lazy">
+                    <div class="card2-content">
+                        <h2> category</h2>
+                        <p>floral perform</p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="https://images.pexels.com/photos/31198323/pexels-photo-31198323/free-photo-of-scenic-horseback-ride-in-northern-mindanao.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="" loading="lazy">
+                    <div class="card2-content">
+                        <h2> category</h2>
+                        <p>floral perform</p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="https://images.pexels.com/photos/31043707/pexels-photo-31043707/free-photo-of-majestic-mount-fuji-reflecting-in-calm-lake.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="" loading="lazy">
+                    <div class="card2-content">
+                        <h2> category</h2>
+                        <p>floral perform</p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="https://images.pexels.com/photos/30599063/pexels-photo-30599063/free-photo-of-aerial-view-of-highway-with-light-trails-in-forest.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="" loading="lazy">
+                    <div class="card2-content">
+                        <h2> category</h2>
+                        <p>floral perform</p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offer-section">
+        <div class="offer">
+            <div class="header-2">
+                <h1>what we offer</h1>
+            </div>
+            <div class="grid-container">
+                <div class="card3">
+                    <div class="header-wrapper">
+                        <i class="fa-solid fa-globe"></i>
+                        <h2>Global Performances</h2>
+                    </div>
+                    <p>Experience world-class performances from artists across the globe, bringing diverse cultures to
+                        your doorstep.</p>
+                </div>
+
+                <div class="card3">
+                    <div class="header-wrapper">
+                        <i class="fa-solid fa-music"></i>
+                        <h2>Live Concerts</h2>
+                    </div>
+                    <p>Immerse yourself in electrifying live music events featuring top international and local artists.
+                    </p>
+                </div>
+
+                <div class="card3">
+                    <div class="header-wrapper">
+                        <i class="fa-solid fa-theater-masks"></i>
+                        <h2>Theatrical Shows</h2>
+                    </div>
+                    <p>Discover captivating theatrical productions ranging from classical plays to contemporary
+                        performances.</p>
+                </div>
+
+                <div class="card3">
+                    <div class="header-wrapper">
+                        <i class="fa-solid fa-video"></i>
+                        <h2>Virtual Events</h2>
+                    </div>
+                    <p>Enjoy high-quality streaming of performances from the comfort of your home with our virtual
+                        platform.</p>
+                </div>
+
+                <div class="card3">
+                    <div class="header-wrapper">
+                        <i class="fa-solid fa-star"></i>
+                        <h2>family workshops</h2>
+                    </div>
+                    <p>Engaging workshops for all ages to explore and develop artistic skills with professional
+                        guidance.</p>
+                </div>
+
+                <div class="card3">
+                    <div class="header-wrapper">
+                        <i class="fa-solid fa-star"></i>
+                        <h2>Exclusive Content</h2>
+                    </div>
+                    <p>Access behind-the-scenes footage, artist interviews, and special members-only performances.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why">
+        <div class="container">
+            <div class="left-section">
+                <h1 class="header-3">Why Choose Us</h1>
+                <p class="description-2">
+                    We are committed to delivering unparalleled service and premium quality products.
+                    Our dedicated team of industry experts works tirelessly to ensure your complete satisfaction.
+                    With over a decade of experience, we deeply understand your needs and consistently
+                    deliver innovative solutions that exceed expectations.
+                </p>
+
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon" style="background: linear-gradient(135deg, #a259ff, #6c5ce7);">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-title">Premium Quality</div>
+                            <div class="feature-desc">Industry-leading standards with rigorous quality control</div>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon" style="background: linear-gradient(135deg, #59a4ff, #5d4ae0);">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-title">24/7 Support</div>
+                            <div class="feature-desc">Dedicated customer service team always available</div>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon" style="background: linear-gradient(135deg, #ff59ea, #a259ff);">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-title">Innovative Solutions</div>
+                            <div class="feature-desc">Cutting-edge technology tailored to your needs</div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="cta-button">Get Started Today</a>
+            </div>
+            <div class="right-section">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        alt="Our professional team" loading="lazy">
+                </div>
+                
+                <div class="radio-options">
+                    <div class="radio-container">
+                        <input type="radio" id="option1" name="options" class="radio-input" checked>
+                        <label for="option1" class="radio-label">Quality</label>
+                    </div>
+                    <div class="radio-container">
+                        <input type="radio" id="option2" name="options" class="radio-input">
+                        <label for="option2" class="radio-label">Service</label>
+                    </div>
+                    <div class="radio-container">
+                        <input type="radio" id="option3" name="options" class="radio-input">
+                        <label for="option3" class="radio-label">Expertise</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dashboardd">
+    <div class="stats-card">
+        <div class="stats-header">
+            <h1 class="stats-title">OUR IMPACT IN NUMBERS</h1>
+            <p class="stats-subtitle">Driving innovation and delivering excellence across all metrics</p>
+        </div>
+        
+        <div class="stats-grid">
+            <!-- Team Members -->
+            <div class="stat-item">
+                <div class="stat-icon-container">
+                    <i class="fas fa-users stat-icon"></i>
+                </div>
+                <div class="stat-number">120</div>
+                <div class="stat-label">Team Members</div>
+            </div>
+            
+            <!-- Achievements -->
+            <div class="stat-item">
+                <div class="stat-icon-container">
+                    <i class="fas fa-trophy stat-icon"></i>
+                </div>
+                <div class="stat-number">45</div>
+                <div class="stat-label">Awards Won</div>
+            </div>
+            
+            <!-- Projects -->
+            <div class="stat-item">
+                <div class="stat-icon-container">
+                    <i class="fas fa-project-diagram stat-icon"></i>
+                </div>
+                <div class="stat-number">89</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            
+            <!-- Coffee -->
+            <div class="stat-item">
+                <div class="stat-icon-container">
+                    <i class="fas fa-coffee stat-icon"></i>
+                </div>
+                <div class="stat-number">256</div>
+                <div class="stat-label">Cups of Coffee</div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="pricing">
+        <div class="header-9">
+            <h1>Our Premium Fragrances</h1>
+        </div>
+        <div class="grid-container-2">
+            <div class="card-6 card-5">
+                <h5>Dior Sauvage</h5>
+                <div class="price-circle">
+                    <div class="price-text">
+                        <h5>$95</h5>
+                        <p>/100ML</p>
+                    </div>
+                </div>
+                <div class="prag">
+                    <p>Fresh and spicy scent</p>
+                    <p>Confident allure</p>
+                    <p>Nature inspired</p>
+                </div>
+                <button class="button-5">Add to Cart</button>
+            </div>
+            <div class="card-7 card-5">
+                <h5>Chanel No.5</h5>
+                <div class="price-circle">
+                    <div class="price-text">
+                        <h5>$120</h5>
+                        <p>/100ML</p>
+                    </div>
+                </div>
+                <div class="prag">
+                    <p>Timeless floral bouquet</p>
+                    <p>Elegant sophistication</p>
+                    <p>Iconic fragrance</p>
+                </div>
+                <button class="button-5">Add to Cart</button>
+            </div>
+            <div class="card-8 card-5">
+                <h5>Tom Ford Noir</h5>
+                <div class="price-circle">
+                    <div class="price-text">
+                        <h5>$150</h5>
+                        <p>/100ML</p>
+                    </div>
+                </div>
+                <div class="prag">
+                    <p>Luxurious dark scent</p>
+                    <p>Mysterious character</p>
+                    <p>Evening elegance</p>
+                </div>
+                <button class="button-5">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="card-team">
+        <div class="full-page-card">
+            <div class="team-card">
+                <h1 class="team-title">Our Professional Team</h1>
+                <div class="employees-container">
+                    <!-- Male Employee -->
+                    <div class="employee" id="employee1">
+                        <div class="employee-header">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="Male Employee" class="employee-image">
+                            <div class="employee-text">
+                                <h2 class="employee-name">David Wilson</h2>
+                                <p class="employee-position">Senior Developer</p>
+                            </div>
+                        </div>
+                        <p class="employee-description">
+                            Expert in JavaScript frameworks and cloud architecture with 8+ years experience. Leads development with focus on clean code and best practices.
+                        </p>
+                    </div>
+                    
+                    <!-- Female Employee -->
+                    <div class="employee" id="employee2">
+                        <div class="employee-header">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="Female Employee" class="employee-image">
+                            <div class="employee-text">
+                                <h2 class="employee-name">Sarah Johnson</h2>
+                                <p class="employee-position">Marketing Director</p>
+                            </div>
+                        </div>
+                        <p class="employee-description">
+                            Creative strategist with 10+ years in digital marketing. Specializes in data-driven campaigns that drive engagement and business growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <section class="team">
+        <div class="header-9">
+            <h1>our team</h1>
+        </div>
+        <div class="grid-container-3">
+           
+            <!-- Card 1 -->
+            <div class="card-10">
+                <div class="img-10">
+                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600" alt="John Doe">
+                    <div class="icon-10">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <h6>John Doe</h6>
+                <p>Senior Designer</p>
+                <div class="desc">With over 10 years of experience in UI/UX design, John creates stunning user interfaces.</div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="card-10">
+                <div class="img-10">
+                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Jane Smith">
+                    <div class="icon-10">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-behance"></i>
+                        <i class="fab fa-dribbble"></i>
+                    </div>
+                </div>
+                <h6>Jane Smith</h6>
+                <p>Frontend Developer</p>
+                <div class="desc">Specializing in React and Vue.js, Jane builds responsive and performant web applications.</div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="card-10">
+                <div class="img-10">
+                    <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mike Johnson">
+                    <div class="icon-10">
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-stack-overflow"></i>
+                        <i class="fab fa-medium"></i>
+                    </div>
+                </div>
+                <h6>Mike Johnson</h6>
+                <p>Backend Engineer</p>
+                <div class="desc">Expert in Node.js and Python, Mike develops robust and scalable server-side applications.</div>
+            </div>
+        </div>
+    </section>
+    <section class="team-4" style="margin-top: 87vh;">
+        <div class="header-6">
+            <h1>recent news</h1>
+        </div>
+        <div class="grid-container-2">
+            <!-- Card 1 -->
+            <div class="card-12">
+                <div class="img-12">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Sarah Johnson">
+                </div>
+                <div class="icon-12">
+                    <i class="fab fa-facebook-f"></i><span class="spn">Sarah</span>
+                    <i class="fab fa-twitter"></i><span class="spn">15 Jan</span>
+                    <i class="fab fa-linkedin-in"></i><span class="spn">120</span>
+                </div>
+                
+                <h6>Sarah Johnson</h6>
+                <p class="parag-2">Creative Director</p>
+                <div class="desc">With 8 years in creative direction, Sarah leads our design team with innovative vision and strategy.</div>
+                <a href="#" class="link">View Portfolio</a>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="card-12">
+                <div class="img-12">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="David Chen">
+                </div>
+                <div class="icon-12">
+                    <i class="fab fa-instagram"></i><span class="spn">David</span>
+                    <i class="fab fa-behance"></i><span class="spn">22 Feb</span>
+                    <i class="fab fa-dribbble"></i><span class="spn">89</span>
+                </div>
+                <h6>David Chen</h6>
+                <p class="parag-2">Lead Developer</p>
+                <div class="desc">Specializing in JavaScript frameworks, David builds cutting-edge web applications with flawless functionality.</div>
+                <a href="#" class="link">View Projects</a>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="card-12">
+                <div class="img-12">
+                    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Emma Rodriguez">
+                </div>
+                <div class="icon-12">
+                    <i class="fab fa-github"></i><span class="spn">Emma</span>
+                    <i class="fab fa-stack-overflow"></i><span class="spn">5 Mar</span>
+                    <i class="fab fa-medium"></i><span class="spn">64</span>
+                </div>
+                <h6>Emma Rodriguez</h6>
+                <p class="parag-2">UX Researcher</p>
+                <div class="desc">With a psychology background, Emma provides deep user insights that drive our design decisions.</div>
+                <a href="#" class="link">Read Case Studies</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-bg-element"></div>
+        <div class="footer-bg-element"></div>
+        
+        <div class="footer-content">
+            <div class="footer-section about-section">
+                <h3>About Us</h3>
+                <p>We are a creative team dedicated to delivering exceptional digital experiences through innovative design and development solutions that push boundaries.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="quick-links" style="list-style: none; padding: 0;">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>Follow us on social media to stay updated with our latest projects and news.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+                <p style="margin-top: 1.5rem; font-size: 0.9rem;">
+                    <i class="fas fa-envelope" style="margin-right: 5px;"></i> alimohamedkhaleelabd@gmail.com<br>
+                    <i class="fas fa-phone" style="margin-right: 5px; margin-top: 8px;"></i> +0201121360605
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="copyright-text">&copy; 2025. All Rights Reserved. | Designed with <i class="fas fa-heart" style="color: #ff4d4d;"></i>ellol</p>
+        </div>
+    </footer>
+    <!-- الدوائر الضبابية -->
+    <div id="circles-container">
+        <div class="circle" id="circle1"></div>
+        <div class="circle" id="circle2"></div>
+        <div class="circle" id="circle3"></div>
+        <div class="circle" id="circle4"></div>
+    </div>
+
+    <!-- GSAP Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
