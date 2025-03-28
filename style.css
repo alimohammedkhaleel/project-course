@@ -1396,6 +1396,11 @@ body {
     margin-bottom: 2rem;
     font-size: 2.2rem;
 }
+@media (max-width:768px){
+    .header-9{
+        margin-top: 30vh;
+    }
+}
 
 .grid-container-2 {
     display: grid;
