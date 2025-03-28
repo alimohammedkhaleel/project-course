@@ -1609,11 +1609,11 @@ body {
 @media (max-width: 768px) {
     .grid-container-3, .grid-container-2 {
         gap: 1rem;
-        padding: 1rem;
+        padding: 5rem;
     }
     
     .card-10, .card-12 {
-        transform: translateY(30px);
+        transform: translateY(30vh);
         margin-bottom: 70svh;
     }
 }
