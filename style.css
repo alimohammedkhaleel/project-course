@@ -1593,7 +1593,7 @@ body {
 /*our team card*/
 .team{
     min-height: 100vh; /* بدلاً من height ثابتة */
-    padding-bottom: 50px; /* إضافة مساحة في الأسفل */
+    padding-bottom: 50vh; /* إضافة مساحة في الأسفل */
 }
 .team-4 {
     padding-top: 80px;
@@ -1603,7 +1603,7 @@ body {
 
 @media (max-width: 768px) {
     .team-4 {
-        padding-top: 50px;
+        padding-top: 1000svh;
     }
 }
 @media (max-width: 768px) {
