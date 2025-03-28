@@ -1592,29 +1592,11 @@ body {
 }
 /*our team card*/
 .team{
-    min-height: 100vh; /* بدلاً من height ثابتة */
-   
+height: 100vh;
 }
-.team-4 {
-    padding-top: 80px;
-    position: relative;
-    z-index: 10;
-}
-
 @media (max-width: 768px) {
     .team-4 {
         padding-top: 1000svh;
-    }
-}
-@media (max-width: 768px) {
-    .grid-container-3, .grid-container-2 {
-        gap: 4rem;
-        padding: 5rem;
-    }
-    
-    .card-10, .card-12 {
-        transform: translateY(30vh);
-        margin-bottom: 70svh;
     }
 }
 .grid-container-3 {
