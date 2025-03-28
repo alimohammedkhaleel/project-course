@@ -1608,7 +1608,7 @@ body {
 }
 @media (max-width: 768px) {
     .grid-container-3, .grid-container-2 {
-        gap: 1rem;
+        gap: 4rem;
         padding: 5rem;
     }
     
@@ -1623,6 +1623,7 @@ body {
     gap: 2rem;
     padding: 2rem;
     max-width: 1200px;
+    position: relative;
     margin: 0 auto;
     
 }
