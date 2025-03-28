@@ -1592,10 +1592,7 @@ body {
 }
 /*our team card*/
 .team{
-position: relative;
-}
-.team-4{
-    position: relative;
+height: 100vh;
 }
 .grid-container-3 {
     display: grid;
