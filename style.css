@@ -1591,12 +1591,12 @@ body {
     }
 }
 /*our team card*/
-.team {
-   
-    
-   width: 100vh;
+.team{
+position: relative;
 }
-
+.team-4{
+    position: relative;
+}
 .grid-container-3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
