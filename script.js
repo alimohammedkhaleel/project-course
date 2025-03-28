@@ -119,19 +119,7 @@
      delay: 0.3,
      ease: "power2.out"
  });
- gsap.from(".header-6",{
-     scrollTrigger:{
-         trigger:".team",
-         start:"top 60%",
-         end:"bottom 20%",
-         toggleAction:"play none none none"
-     },
-     opacity:0,
-     x:-200,
-     duration:1.3,
-     delay:0.2,
-     ease:"power2.out"
- });
+
 
  gsap.from(".HC", {
      scrollTrigger: {
