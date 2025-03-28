@@ -1594,7 +1594,7 @@ body {
 .team {
    
     
-    position: relative;
+   width: 100vh;
 }
 
 .grid-container-3 {
