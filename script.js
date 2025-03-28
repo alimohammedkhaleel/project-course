@@ -121,7 +121,7 @@
  });
  gsap.from(".header-6",{
      scrollTrigger:{
-         trigger:".team",
+         trigger:".team-4",
          start:"top 60%",
          end:"bottom 20%",
          toggleAction:"play none none none"
