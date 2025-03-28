@@ -1592,7 +1592,7 @@ body {
 }
 /*our team card*/
 .team {
-    min-height: 100vh; /* بدلاً من height ثابتة */
+    min-height: 50vh; /* بدلاً من height ثابتة */
     padding: 50px 0; /* إضافة مساحة داخلية */
     position: relative;
 }
