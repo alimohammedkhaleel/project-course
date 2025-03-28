@@ -1592,12 +1592,12 @@ body {
 }
 /*our team card*/
 .team {
-    min-height: 50vh; /* بدلاً من height ثابتة */
+   
     
     position: relative;
 }
 .team-4 {
-    padding-top: 50px; /* بدلاً من margin-top الكبير */
+   
     position: relative;
 }
 
