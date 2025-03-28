@@ -1600,11 +1600,7 @@ body {
     padding-top: 50px; /* بدلاً من margin-top الكبير */
     position: relative;
 }
-@media (max-width: 768px) {
-    .team-4 {
-        padding-top: 1000svh;
-    }
-}
+
 .grid-container-3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
