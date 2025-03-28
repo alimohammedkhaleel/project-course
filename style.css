@@ -1591,8 +1591,15 @@ body {
     }
 }
 /*our team card*/
-.team{
-height: 100vh;
+
+
+@media (max-width: 768px) {
+    
+    
+    .team-4 {
+        padding-top: 30svh;
+    }
+
 }
 .grid-container-3 {
     display: grid;
