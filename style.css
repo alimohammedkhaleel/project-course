@@ -1591,7 +1591,12 @@ body {
     }
 }
 /*our team card*/
-
+.team{
+    position: relative;
+}
+.team-4{
+    position: relative;
+}
 
 @media (max-width: 768px) {
     
