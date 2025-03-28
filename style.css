@@ -1614,7 +1614,7 @@ body {
     
     .card-10, .card-12 {
         transform: translateY(30px);
-        margin-bottom: 20px;
+        margin-bottom: 20svh;
     }
 }
 .grid-container-3 {
